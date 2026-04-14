@@ -1,4 +1,4 @@
-package com.mentorship.ecommerce_app.common.exceptions;
+package com.mentorship.food_delivery_app.common.exceptions;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 

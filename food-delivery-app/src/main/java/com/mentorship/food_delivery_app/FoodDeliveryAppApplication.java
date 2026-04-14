@@ -1,13 +1,13 @@
-package com.mentorship.ecommerce_app;
+package com.mentorship.food_delivery_app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EcommerceAppApplication {
+public class FoodDeliveryAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EcommerceAppApplication.class, args);
+		SpringApplication.run(FoodDeliveryAppApplication.class, args);
 	}
 
 }

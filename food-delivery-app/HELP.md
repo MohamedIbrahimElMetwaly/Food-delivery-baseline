@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.mentorship.ecommerce-app' is invalid and this project uses 'com.mentorship.ecommerce_app' instead.
+* The original package name 'com.mentorship.food-delivery-app' is invalid and this project uses 'com.mentorship.food_delivery_app' instead.
 
 # Getting Started
 

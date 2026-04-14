@@ -1,10 +1,10 @@
-package com.mentorship.ecommerce_app;
+package com.mentorship.food_delivery_app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EcommerceAppApplicationTests {
+class FoodDeliveryAppApplicationTests {
 
 	@Test
 	void contextLoads() {
