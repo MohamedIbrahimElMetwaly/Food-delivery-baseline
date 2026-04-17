@@ -138,11 +138,11 @@ CREATE TABLE IF NOT EXISTS cart(
     cart_current_rest_id UUID --REFERENCES restaurant_branch(branch_id)
 );
 CREATE TABLE IF NOT EXISTS cart_item(
+    cart_item_id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY ,
     cart_item_cart_id UUID ,--REFERENCES cart(cart_id)
     menu_item_id UUID, --REFERENCES menu_item(menu_item_id)
     cart_item_quantity INT CHECK ( cart_item_quantity > 0 ),
-    cart_item_note VARCHAR(255),
-    PRIMARY KEY (cart_item_cart_id,menu_item_id)
+    cart_item_note VARCHAR(255)
 );
 
 ------------------------------ORDER---------------------
