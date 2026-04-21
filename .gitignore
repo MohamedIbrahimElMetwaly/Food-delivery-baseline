@@ -8,3 +8,7 @@ target/
 *.iml
 *.iws
 *.ipr
+*.classpath
+*.factorypath
+*.project
+*.settings
